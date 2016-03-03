@@ -1,0 +1,121 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+/*** Header ***/
+
+.top_content {
+  background: blue;
+  min-height: 450px;
+  width: 100%;
+}
+
+.symbol {
+  display: block;
+}
+
+.title {
+  background: red;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+}
+
+@media (min-device-width:480px) {
+
+.top_content {
+  min-height: 200px;
+}
+
+.symbol {
+  display: inline-block;
+}
+
+}
+
+.top_content {
+  position: relative;
+}
+
+ /*** Navbar ***/
+
+ nav {
+   background: yellow;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   text-align: center;
+   font-size: 1.5em;
+ }
+
+nav > a {
+  padding: 1.5%;
+  display: block;
+}
+
+@media (min-device-width:480px) {
+
+  nav > a {
+    color: #242424;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5% 4.5%;
+  }
+
+
+}
+
+
+
+
+
+/*** Main Content ***/
+
+.main_content {
+  min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/*** Picture ***/
+
+.picture {
+  min-height: 250px;
+  background: grey;
+}
+
+
+
+
+
+
+
+
+
+
+/*** Description ***/
+
+.description {
+  min-height: 250px;
+  background: magenta;
+}
+
+
+
+
+
+
+
+
+/*** Footer ***/
+
+.footer {
+  background: green;
+}
